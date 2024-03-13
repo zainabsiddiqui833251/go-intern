@@ -1,0 +1,237 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(./img/1330535.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-shadow: 2px 2px grey;
+}
+
+/* navbar */
+.navbar {
+    width: 100%;
+    background-color: black;
+    overflow: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+
+}
+
+.navbar li {
+    display: inline;
+    list-style-type: none;
+    float: right;
+    padding: 0.5%;
+    font-size: large;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.navbar a:hover {
+    color: black;
+    background-color: white;
+}
+
+/* navbar closed */
+
+/* home */
+.home .child {
+    display: inline-block;
+    width: 45%;
+    height: 500px;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.home {
+    /* width: 90%;
+    margin: 0px auto; */
+    /* margin-top: 8%; */
+    border-bottom: 2px solid;
+    /* background-image: url(./img/1330535.png); */
+}
+
+.home img {
+    height: 500px;
+}
+
+.home h1 {
+    text-transform: capitalize;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: underline;
+    text-shadow: 2px 2px grey;
+}
+
+.home h5 {
+    text-transform: uppercase;
+    margin-top: 30%;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.home h3 {
+    text-transform: capitalize;
+}
+
+.home button a {
+    text-transform: capitalize;
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+}
+
+.home button {
+    width: 30%;
+    height: 30px;
+    background-color: black;
+}
+
+.home button:hover {
+    background-color: grey;
+}
+
+.home button a:hover {
+    color: white;
+}
+
+/* home */
+
+/* about */
+.about {
+    width: 90%;
+    margin: 0px auto;
+    text-transform: capitalize;
+    margin-top: 5%;
+    border-bottom: 2px solid;
+    /* background-image: url(./img/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.webp); */
+    margin-bottom: 5%;
+}
+
+.about .child1 {
+    display: inline-block;
+    width: 32.5%;
+    overflow: hidden;
+    border: solid;
+    height: 300px;
+}
+
+.about h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px grey;
+}
+
+.about p {
+    font-size: 40px;
+}
+
+/* about */
+
+/* services */
+.services {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 5%;
+    border-bottom: 2px solid;
+    margin-left: 5%;
+    /* background-image: url(./img/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.webp); */
+    margin-bottom: 5%;
+}
+
+.services .child2 {
+    display: inline-block;
+    overflow: hidden;
+    width: 13%;
+    border: solid;
+    border-radius: 50%;
+    text-align: center;
+    padding: 2%;
+    color: black;
+    background-color: rgb(252, 202, 173);
+    margin: 1%;
+}
+
+.child2 i {
+    font-size: 130px;
+}
+
+/* services */
+
+/* my work */
+.grid-container {
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0px auto;
+    padding: 10%;
+    /* background-image: url(./img/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.webp); */
+    background-size: 90%;
+}
+
+.grid-container video {
+    width: 100%;
+    margin-top: 3%;
+    padding: 5%;
+}
+
+.grid-item {
+    width: 40%;
+    display: inline-flex;
+}
+
+/* my work */
+
+/* contact */
+.contact .child3{
+    display: inline-block;
+    width: 45%;
+    padding: 1%;
+    overflow: hidden;
+}
+.contact{
+    /* width: 90%;
+    margin: 0px auto; */
+    border-top: 2px solid;
+    /* background-image: url(./img/1330535.png); */
+    margin-top: 5%;
+}
+.contact img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 57%;
+}
+.contact h1{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-shadow: 2px 2px grey;
+}
+.contact li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: larger;
+    color: black;
+}
+.contact li{
+    list-style-type: none;
+}
+/* contact */
