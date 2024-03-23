@@ -176,25 +176,14 @@ h1{
 /* services */
 
 /* my work */
-.grid-container {
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    margin: 0px auto;
-    padding: 10%;
-    /* background-image: url(./img/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.webp); */
-    background-size: 90%;
-}
-
-.grid-container video {
-    width: 100%;
-    margin-top: 3%;
-    padding: 5%;
-}
-
-.grid-item {
-    width: 40%;
-    display: inline-flex;
+#mywork p{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: double;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:normal;
+    font-style: italic;
 }
 
 /* my work */
@@ -207,10 +196,7 @@ h1{
     overflow: hidden;
 }
 .contact{
-    /* width: 90%;
-    margin: 0px auto; */
     border-top: 2px solid;
-    /* background-image: url(./img/1330535.png); */
     margin-top: 5%;
 }
 .contact img{
@@ -233,5 +219,10 @@ h1{
 }
 .contact li{
     list-style-type: none;
+}
+.contact h5{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
 }
 /* contact */
