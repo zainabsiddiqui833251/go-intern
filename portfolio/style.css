@@ -5,7 +5,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-h1{
+
+h1 {
     text-align: center;
     font-size: 50px;
     text-transform: capitalize;
@@ -169,6 +170,12 @@ h1{
     margin: 1%;
 }
 
+.services .child2:hover {
+    background-color: black;
+    color: rgb(252, 202, 173);
+
+}
+
 .child2 i {
     font-size: 130px;
 }
@@ -176,53 +183,64 @@ h1{
 /* services */
 
 /* my work */
-#mywork p{
+#mywork p {
     text-align: center;
     text-transform: capitalize;
     text-decoration: double;
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight:normal;
+    font-weight: normal;
     font-style: italic;
 }
 
 /* my work */
 
 /* contact */
-.contact .child3{
+.contact .child3 {
     display: inline-block;
     width: 45%;
     padding: 1%;
     overflow: hidden;
 }
-.contact{
+
+.contact {
     border-top: 2px solid;
     margin-top: 5%;
 }
-.contact img{
+
+.contact img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 57%;
 }
-.contact h1{
+
+.contact h1 {
     text-align: center;
     text-decoration: underline;
     text-transform: capitalize;
     text-shadow: 2px 2px grey;
 }
-.contact li a{
+
+.contact li a {
     text-decoration: none;
     text-transform: capitalize;
     font-size: larger;
     color: black;
 }
-.contact li{
+
+.contact li {
     list-style-type: none;
 }
-.contact h5{
+
+.contact h5 {
     text-align: center;
     text-decoration: underline;
     font-size: 30px;
 }
+
 /* contact */
+
+
+
+/* finished portfolio design */
